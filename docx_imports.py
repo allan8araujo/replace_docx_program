@@ -3,7 +3,7 @@ from docx.shared import Pt
 from tkinter_imports import replace_paragraph, replace_table, path_entry, var, word_entry_paragraph,word_entry_tables
 '''here you need to put insted {YOUR ABSOLUTE PATH} the absolute path of your docx file, like 'c:/[...]/arquive.docx' '''
 
-doc = docx.Document('C:/Users/allan/PycharmProjects/docx_replace_project/packages/name.docx')
+doc = docx.Document('{YOUR ABSOLUTE PATH}')
 texto = ''
 tabelas = ''
 paragraphs_num = (len(doc.paragraphs))
